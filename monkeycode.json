@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "monkeycode",
+  "type": "channel",
+  "name": "MonkeyCode（平台托管模型）",
+  "description": "MonkeyCode 平台托管模型渠道：导入本机 ohmyagent 客户端凭据（oma_ key + omas_ 签名密钥），Anthropic /messages 与 OpenAI /responses 双 API 面，X-Ohmyagent-Signature 请求签名，Cap.js 工作量证明签到；模型前缀 monkeycode。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-monkeycode-ext",
+  "status": "verified",
+  "icon": "monkeycode",
+  "color": "#7c5cff",
+  "conformance": {
+    "pass": 45,
+    "warn": 2,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "22a7d88f0288baab04d3b75553f525af77eb3c5baeb08dc1f8dae5745c43cf87",
+      "size": 2895333,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

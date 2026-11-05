@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "codearts",
+  "type": "channel",
+  "name": "华为云 CodeArts Agent",
+  "description": "华为云 CodeArts Agent 渠道（OAuth + DPoP 登录，临时 AK/SK 签名请求，含免费额度目录与积分签到）",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-codearts-ext",
+  "status": "verified",
+  "icon": "codearts",
+  "color": "#c7000b",
+  "conformance": {
+    "pass": 46,
+    "warn": 1,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "models.list",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "73a8f0737e7db43bdb799515fd4525c2262f756964962ea57dfc5264b94fe462",
+      "size": 3245522,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

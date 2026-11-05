@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "minimax",
+  "type": "channel",
+  "name": "MiniMax Code（minimax）",
+  "description": "MiniMax Code 中国版渠道：OAuth 设备码（device_poll）登录，Anthropic Messages 协议（出站 OpenAI→Anthropic 转换、入站 SSE→统一事件），模型前缀 minimax。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-minimax-ext",
+  "status": "verified",
+  "icon": "minimax",
+  "color": "#e8392e",
+  "conformance": {
+    "pass": 45,
+    "warn": 2,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "b70e3f3b22304e9170463eb094fd8be6fae49fe80b0a527d8b3e7983fff1b2c4",
+      "size": 2876926,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

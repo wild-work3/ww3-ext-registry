@@ -1,0 +1,56 @@
+{
+  "schema": 2,
+  "id": "kilo",
+  "type": "channel",
+  "name": "Kilo 免费池（kilo）",
+  "description": "Kilo AI 免费池渠道：免密匿名访问（无 Authorization/key/指纹头），服务范围由上游模型清单的 isFree 声明，模型前缀 kilo。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-kilo-ext",
+  "status": "verified",
+  "icon": "kilo",
+  "color": "#6c5ce7",
+  "conformance": {
+    "pass": 46,
+    "warn": 0,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "9eb5f0df60fce44ee34ba76aeb9beb58a4fabecb512b1a0fd9f309b7ad006854",
+      "size": 2786514,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+name: validate
+
+# 注册表仓 CI 只做契约 §7.3 的三件事（不下载包、不验 sha256——那是客户端的事）：
+#   1. JSON 语法 + schema + 必需字段 + 命名规则
+#   2. id 全表唯一
+#   3. 拒绝把二进制提进本仓
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 校验注册文件
+        run: bash scripts/validate.sh

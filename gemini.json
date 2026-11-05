@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "id": "gemini",
+  "type": "channel",
+  "name": "Gemini Code Assist（gemini）",
+  "description": "Gemini Code Assist 渠道（OAuth loopback 登录）：v1internal 信封 + 逐字身份五头，模型前缀 gemini，唯一模型 gemini-3.8-flash，思考档位走 reasoning_effort。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-gemini-ext",
+  "status": "verified",
+  "icon": "gemini",
+  "color": "#4285f4",
+  "conformance": {
+    "pass": 45,
+    "warn": 1,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "1758c2a8099b390eb165396650464fdb597d290d7be19446515390184c0c10da",
+      "size": 3213282,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": 2,
+  "id": "loopguard",
+  "type": "hook",
+  "name": "思考链死循环守卫",
+  "description": "检测思考链死循环（机械复读/空转），命中即中断生成并向下游报错。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/wild-work3",
+  "status": "verified",
+  "icon": "hook",
+  "color": "#faad14",
+  "capabilities": {
+    "control": [
+      "config.schema",
+      "config.get",
+      "ping",
+      "health.check"
+    ],
+    "conversation": [
+      "hook.stream"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "15f7c055cf3cde1d4506c98daf82a12cd28083ea0ddf0eadd93aabc63905f534",
+      "size": 1254977,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

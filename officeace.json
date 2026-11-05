@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "officeace",
+  "type": "channel",
+  "name": "OfficeAce（华为云盘古助手）",
+  "description": "OfficeAce 渠道：device_poll 变体（服务端 state 轮询）自助 OAuth 登录，DPoP + PKCE + 临时 AK/SK 双层凭据，OpenAI 兼容 SSE，模型前缀 officeace。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-officeace-ext",
+  "status": "verified",
+  "icon": "officeace",
+  "color": "#c7000b",
+  "conformance": {
+    "pass": 44,
+    "warn": 3,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "6c9189bb98b5e0ca75f99d9112642c685ed6d0cee9f0904b7d4cf93c6a30f241",
+      "size": 3022388,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

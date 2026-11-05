@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "qoder",
+  "type": "channel",
+  "name": "Qoder",
+  "description": "Qoder 渠道插件：单插件多区（qoder / qodercn / qodercom），COSY 签名 + 嵌套 SSE。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-qoder-ext",
+  "status": "verified",
+  "icon": "qoder",
+  "color": "#7c3aed",
+  "conformance": {
+    "pass": 46,
+    "warn": 1,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "6987cd6dbd32f579a40fc371cb90c44a5c636909c4990db430866fa1d5050fd8",
+      "size": 2996575,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

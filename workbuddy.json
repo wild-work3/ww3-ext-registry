@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "workbuddy",
+  "type": "channel",
+  "name": "WorkBuddy（国内版 / 国际版）",
+  "description": "WorkBuddy 双区渠道：扫码登录（设备流 state 轮询），国内版前缀 workbuddy、国际版前缀 workbuddyai。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-workbuddy-ext",
+  "status": "verified",
+  "icon": "workbuddy",
+  "color": "#2f6bff",
+  "conformance": {
+    "pass": 47,
+    "warn": 0,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "2aba0c1571909e9e0cf9c2186b725d5a77cb39b0bf9a54b322be705afa6306fc",
+      "size": 2853915,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

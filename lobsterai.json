@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "lobsterai",
+  "type": "channel",
+  "name": "有道龙虾（LobsterAI）",
+  "description": "有道龙虾渠道：loopback_callback 浏览器登录（支持粘贴回调地址兜底），OpenAI 兼容 SSE，模型前缀 lobsterai。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-lobsterai-ext",
+  "status": "verified",
+  "icon": "lobsterai",
+  "color": "#0e7490",
+  "conformance": {
+    "pass": 44,
+    "warn": 3,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "accounts.checkin",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "fc4c2d8d5b7ed1f676953e4316ae3c551d1646c93cc7212645ee2e56b6cab6d2",
+      "size": 3189398,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

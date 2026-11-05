@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "id": "cline",
+  "type": "channel",
+  "name": "Cline 免费池（cline）",
+  "description": "Cline 免费模型池渠道：API Key（sk_ 前缀）鉴权，模型面绑死上游 recommended-models 的 free[] 原样透传，OpenAI 兼容 SSE，模型前缀 cline。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-cline-ext",
+  "status": "verified",
+  "icon": "cline",
+  "color": "#00b0ff",
+  "conformance": {
+    "pass": 45,
+    "warn": 1,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "05bd7692d15e09a6a1c1f98b09b310b912a65c909e35fb7952c578ab2a42f223",
+      "size": 2959269,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

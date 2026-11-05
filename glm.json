@@ -1,0 +1,64 @@
+{
+  "schema": 2,
+  "id": "glm",
+  "type": "channel",
+  "name": "智谱清言",
+  "description": "智谱清言 chatglm.cn 逆向渠道（IDE 指纹通道；支持主对话/深度思考/沉思/AI搜索/PPT/视频 与文生图/参考图生图）",
+  "author": "wild-work3",
+  "repo": "https://github.com/pyichiban/chatglm-cli",
+  "status": "verified",
+  "icon": "glm",
+  "color": "#3b6ef6",
+  "conformance": {
+    "pass": 55,
+    "warn": 1,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "accounts.list",
+      "accounts.remove",
+      "accounts.refresh",
+      "accounts.checkin",
+      "accounts.resource_detail",
+      "credits.get",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "images.generate",
+      "systemone.decide",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "sha256": "e278f6f206fc71f8a395ac8e190c7bfedba87d5027261b1dc3e75737dc518f4d",
+      "size": 3333610,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

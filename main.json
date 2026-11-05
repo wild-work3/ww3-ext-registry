@@ -1,0 +1,36 @@
+{
+  "schema": 2,
+  "id": "main",
+  "type": "main",
+  "name": "WW3 主程序",
+  "description": "core 运行时 + 两个官方样板插件（gateway 单独分发，不自动更新）",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/wild-work3",
+  "icon": "ww3",
+  "color": "#2f6bff",
+  "status": "verified",
+  "updated_at": "2026-11-05T18:00:00Z",
+  "gateway": {
+    "version": "1.0.0",
+    "sha256": "e66f44d28c5a8942490d349e8646eb57838ba1402e329171f07174e824285336",
+    "size": 9052672,
+    "note": "手动替换：停 gateway → wild-work3.exe 改名为 wild-work3.exe.old → 放入新文件 → 重启"
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "e8e1569b54fbc95da9cd54cf264efbdda0511f973d0138a28298ee55eb7289c8",
+      "size": 7314531,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个可运行版本（core + custom-api-ext + loopguard-hook）"
+    }
+  ]
+}

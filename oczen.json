@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "id": "oczen",
+  "type": "channel",
+  "name": "OpenCodeZen（oczen）",
+  "description": "OpenCodeZen 渠道：匿名免费通道（Bearer public，/inference）开箱即用，亦可填自备 sk-… key 走键控车道（/zen）；OpenAI 兼容 SSE 透传，模型前缀 oczen。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-oczen-ext",
+  "status": "verified",
+  "icon": "oczen",
+  "color": "#6c7cff",
+  "conformance": {
+    "pass": 46,
+    "warn": 0,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping",
+      "systemone.decide"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "654173835e7757e9eb5f5e9278084b01bf476bf6e717e7b784cd3af669fadbfb",
+      "size": 2949571,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}

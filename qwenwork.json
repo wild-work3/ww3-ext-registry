@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "id": "qwenwork",
+  "type": "channel",
+  "name": "QwenWork",
+  "description": "QwenWork（通义千问办公版）渠道：COSY 签名 + 嵌套 SSE，支持 pro/flash/Qwen3.8-Max。",
+  "author": "wild-work3",
+  "repo": "https://github.com/wild-work3/ww3-qwenwork-ext",
+  "status": "verified",
+  "icon": "qwenwork",
+  "color": "#0e7490",
+  "conformance": {
+    "pass": 46,
+    "warn": 0,
+    "fail": 0,
+    "mode": "offline",
+    "at": "2026-11-05"
+  },
+  "capabilities": {
+    "control": [
+      "models.list",
+      "config.schema",
+      "config.get",
+      "config.set",
+      "auth.methods",
+      "auth.begin",
+      "auth.status",
+      "auth.finish",
+      "auth.cancel",
+      "accounts.list",
+      "accounts.resource_detail",
+      "accounts.refresh",
+      "credits.get",
+      "stats.get",
+      "health.check",
+      "ping"
+    ],
+    "conversation": [
+      "chat.generate"
+    ]
+  },
+  "updated_at": "2026-11-05T18:00:00Z",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "sha256": "3fac813d1948bdabf45687d4a567d88b1e1b3150cd2d0bf8a9ce5da504d1d4ed",
+      "size": 3060698,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    }
+  ]
+}
