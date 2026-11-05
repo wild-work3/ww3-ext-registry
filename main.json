@@ -19,8 +19,8 @@
   "versions": [
     {
       "version": "1.0.0",
-      "sha256": "e8e1569b54fbc95da9cd54cf264efbdda0511f973d0138a28298ee55eb7289c8",
-      "size": 7314531,
+      "sha256": "5ff0a9538a23eb98fb8966b8a259b84db96d22b098a8b550ed03d53a3a8114e1",
+      "size": 7314638,
       "os": "windows",
       "arch": "amd64",
       "protocol": {
