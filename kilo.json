@@ -39,6 +39,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "kilo-1.0.0.zip",
       "sha256": "d62ff46749785cbe0898b0607d527db4e678eb36deeb06c79cb15b1b53b11316",
       "size": 2786514,
       "os": "windows",

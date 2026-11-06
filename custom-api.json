@@ -36,6 +36,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "custom-api-1.0.0.zip",
       "sha256": "6409f74aa95f71f661991abe2eb45a8400611bc07f664d77e5312768158d7589",
       "size": 2847373,
       "os": "windows",

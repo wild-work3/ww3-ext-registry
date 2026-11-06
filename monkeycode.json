@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "monkeycode-1.0.0.zip",
       "sha256": "570b209dbcdbc5a62cefd9d3a3a5916244821e9cccd7a5f935b2f9a4099625a2",
       "size": 2895333,
       "os": "windows",

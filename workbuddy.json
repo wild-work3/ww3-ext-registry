@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "workbuddy-1.0.0.zip",
       "sha256": "bab0c35c8735d4e065b593e1c4609eea64c0a3b132de402604f86d3a64dd38cd",
       "size": 2853915,
       "os": "windows",

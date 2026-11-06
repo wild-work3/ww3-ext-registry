@@ -67,14 +67,16 @@ for f in "${FILES[@]}"; do
     [ -z "$err" ] || { fail "$f: $err"; continue; }
   fi
 
-  # versions[] 每条：version + sha256(64hex) + os/arch + protocol/gateway 形状
+  # versions[] 每条：version + file（纯文件名 .zip）+ sha256(64hex) + os/arch
   err=$("$JQ" -r '
     [ .versions[] | select(
         ((.version // "") == "")
+        or ((.file // "") == "")
+        or (((.file // "") | test("^[^/]+[.]zip$")) | not)
         or (((.sha256 // "") | test("^[0-9a-f]{64}$")) | not)
         or ((.os // "") == "")
         or ((.arch // "") == "")
-      ) | "版本条目不合法：\(.version // "?")" ] | .[0] // empty' "$f" 2>&1)
+      ) | "版本条目不合法：\(.version // "?")（file 必填、不能带路径、必须 .zip；sha256 需 64 位小写十六进制）" ] | .[0] // empty' "$f" 2>&1)
   [ -z "$err" ] || { fail "$f: $err"; continue; }
 
   # 版本号不得重复

@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "loomy-1.0.0.zip",
       "sha256": "bf26cd8e68f2257362423884aa60fecbc406d519bd9d2db2911d43c8decb83e4",
       "size": 2973051,
       "os": "windows",

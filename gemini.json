@@ -43,6 +43,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "gemini-1.0.0.zip",
       "sha256": "4a3ed254967e79fdae7afcfb9ac1550775bce0636f4ef0520da9af78c77fc3cb",
       "size": 3213282,
       "os": "windows",

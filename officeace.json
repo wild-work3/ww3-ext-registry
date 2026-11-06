@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "officeace-1.0.0.zip",
       "sha256": "0ac2d9c2cf4732a8d2690126e4df567a7f11f94947496a88ff76bd91b48964d8",
       "size": 3022388,
       "os": "windows",

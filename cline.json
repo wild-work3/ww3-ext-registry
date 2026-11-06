@@ -43,6 +43,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "cline-1.0.0.zip",
       "sha256": "1afbd9ef0e5b9bb98d064de2a455bc46e9d4fa4e4176dd79b3206f57b7de23e2",
       "size": 2959269,
       "os": "windows",

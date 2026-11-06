@@ -24,6 +24,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "loopguard-1.0.0.zip",
       "sha256": "b71a47a7f3280451910b131288cb23c749631bc824ae5a4bb601179eedf218dd",
       "size": 1254977,
       "os": "windows",

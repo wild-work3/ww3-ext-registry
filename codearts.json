@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "codearts-1.0.0.zip",
       "sha256": "8de9c1a4b2615cf1caac645e663ebc329e577838af83b5aef1ae3caee7486bb6",
       "size": 3245522,
       "os": "windows",

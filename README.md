@@ -36,6 +36,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "workbuddy-1.0.0.zip",        // 发布包文件名（必填，不带路径，必须 .zip）
       "sha256": "…64 位小写十六进制（zip 包体的摘要）…",
       "size": 2853915,
       "os": "windows", "arch": "amd64",
@@ -57,15 +58,16 @@
 
 1. 拉本仓 tarball（`codeload.github.com/wild-work3/ww3-ext-registry/tar.gz/refs/heads/main`）一次读全；
 2. 每个 `<id>.json` 独立校验：坏文件只丢该文件并计入 `errors[]`，不影响其他插件；
-3. 安装时按 `repo` + `version` 定位发布包：
-   `tags.atom`（7KB，退 `releases.atom`）匹配 semver tag → `releases/expanded_assets/<tag>` 枚举资产 → 下载 → **强制校验 sha256**；
+3. 安装时按 **`repo` + `version` + `file`** 定位发布包：
+   `tags.atom`（7KB，退 `releases.atom`）匹配 semver tag → 拼 `releases/download/<tag>/<file>` → 下载 → **强制校验 sha256**。
+   三者合起来唯一定位一个文件（代理/直连拼接规则相同），不需要枚举资产列表、也没有「挑哪个 zip」的歧义；
 4. **全程不用 `api.github.com`**（限流 + 代理不可用），也不用 `releases/latest`（可变指针）。
 
 ## 4. 发布一个新版本（插件作者）
 
 1. 在你的插件仓跑 `bash build.sh --zip`，得到 `<id>-<version>.zip`（包根只有 `<id>-ext.exe` + `manifest.json`）；
 2. 在你的插件仓打 release 并上传该 zip（**tag 名随意**，`v1.4.2` / `1.4.2` / `release-1.4.2` 都能被识别）；
-3. workflow 计算该 zip 的 `sha256` 与 `size`，生成/更新本仓的 `<id>.json`，**提 PR**；
+3. workflow 计算该 zip 的 `sha256` 与 `size`，并把**文件名**写进 `versions[].file`，生成/更新本仓的 `<id>.json`，**提 PR**；
 4. 合并后客户端下个 TTL（≤30min）或用户点「刷新」即生效。
 
 > 注：本仓**不验证** sha256。写错不会装坏——客户端下载完发现摘要不符会直接拒装（fail closed）。
@@ -76,7 +78,7 @@
 - `id` 与包内 `manifest.json` 一致；`type` 正确（渠道 vs 拦截器 vs 主程序）；
 - `repo` 指向**插件自己的 GitHub 仓**（不是本仓、不是别人的仓）；
 - `protocol` / `gateway` 区间合理（别声明需要协议 2 又把 `max` 写成 1）；
-- `versions[]` 至少一条带合法 `sha256`；
+- `versions[]` 至少一条带合法 `sha256` 与 `file`（`file` 必须是 release 里真实存在的资产名，不带路径）；
 - 合规：插件不得绕过 core 调度私自重试/换模型/吞错，`capabilities` 声明与实际一致；
 - **不下载包、不验 sha256**（这是本仓明确不做的）。
 
@@ -86,7 +88,7 @@
 |---|---|
 | 文件名不合命名规则 | 忽略该文件，不记错误 |
 | JSON 语法错 / `schema` 不认识 / `id` 与文件名不符 / 缺必需字段 / `id` 重复 | 该文件不采信，计入 `errors[]` |
-| `versions[]` 某条不合法（缺 `sha256`、非 64hex） | 只丢那一条，其他版本仍可用 |
+| `versions[]` 某条不合法（缺 `sha256`/非 64hex、`file` 缺失或带路径） | 只丢那一条，其他版本仍可用 |
 | `versions[]` 为空 | 商店里可见但 `installable:false` |
 
 `errors[]` 会通过 gateway 的 `/gw/plugins/store/errors` 透出到面板，**不许静默吞掉**。

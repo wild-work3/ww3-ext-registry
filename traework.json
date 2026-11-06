@@ -44,6 +44,7 @@
   "versions": [
     {
       "version": "1.0.0",
+      "file": "traework-1.0.0.zip",
       "sha256": "47926c5e016ad50a0e05b63ad9dd9061d51e942ad0059a107a5c17b79cbcffd7",
       "size": 3045612,
       "os": "windows",

@@ -42,6 +42,7 @@
   "versions": [
     {
       "version": "2.0.0",
+      "file": "chatgpt-2.0.0.zip",
       "sha256": "fc067428a92e9226a7857c5b1a8aedbf1ef06b64cb58ffbbd413616d0b6f6f8b",
       "size": 5737990,
       "os": "windows",
