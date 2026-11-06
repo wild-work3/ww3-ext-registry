@@ -70,6 +70,11 @@
 3. workflow 计算该 zip 的 `sha256` 与 `size`，并把**文件名**写进 `versions[].file`，生成/更新本仓的 `<id>.json`，**提 PR**；
 4. 合并后客户端下个 TTL（≤30min）或用户点「刷新」即生效。
 
+> **可选的准入自检**（由**插件仓自己**决定，本仓不代跑、不做门禁）：在自己仓的 workflow 里跑
+> `ww3-conformance --exe dist/<id>-ext.exe --json-summary out.json`，把摘要里的 `conformance` / `capabilities`
+> 写进本 PR。**不跑这一步同样可以发布**——只有 `repo` / `version` / `file` / `sha256` 是必要信息。
+> 填了这两个字段的好处：ww3 插件管理界面会多显示准入徽章与能力矩阵（见 `conformance/PLAN.md` §0.1）。
+
 > 注：本仓**不验证** sha256。写错不会装坏——客户端下载完发现摘要不符会直接拒装（fail closed）。
 > 写错 `version` / `repo` 同理：都是**明确的安装失败**，不会静默装上错东西。
 
