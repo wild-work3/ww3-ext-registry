@@ -6,6 +6,10 @@
 契约权威：[`docs/PLUGIN_REGISTRY.md`](https://github.com/wild-work3/wild-work3/blob/main/docs/PLUGIN_REGISTRY.md)（v2，W3-48）。
 本 README 只是人读摘要，**以契约文档为准**。
 
+> **当前状态**：本仓已上线（默认分支 `main`，`validate` workflow 通过），21 个注册文件 = 20 插件 + `main.json`。
+> **但插件仓与 release 包尚未发布**（`wild-work3/wild-work3` 也无 tag/release），所以商店里的条目现在**可见但装不上**
+> （下载 fail closed，报「取 tag 列表失败」）。这是“先验通道、后补包”的中间态，不是缺陷。
+
 ---
 
 ## 1. 文件命名（硬规则）
