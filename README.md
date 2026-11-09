@@ -7,8 +7,10 @@
 本 README 只是人读摘要，**以契约文档为准**。
 
 > **当前状态**：本仓已上线（默认分支 `main`，`validate` workflow 通过），21 个注册文件 = 20 插件 + `main.json`。
-> **但插件仓与 release 包尚未发布**（`wild-work3/wild-work3` 也无 tag/release），所以商店里的条目现在**可见但装不上**
-> （下载 fail closed，报「取 tag 列表失败」）。这是“先验通道、后补包”的中间态，不是缺陷。
+> **首个真实可安装包已上线**：`workbuddy`（来自 `wild-work3/ww3-workbuddy-ext` 的 `v1.0.0` release），
+> 由插件仓的 release workflow 自动生成条目并提 PR #1，review 后 squash 合并。
+> 其余 19 个插件仓与 release 包尚未发布（`wild-work3/wild-work3` 也无 tag/release），所以这些条目现在**可见但装不上**
+> （下载 fail closed，报「atom feed 里没有可识别的 tag」）。这是“先验通道、后补包”的中间态，不是缺陷。
 
 ---
 
