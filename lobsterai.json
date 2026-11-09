@@ -14,7 +14,7 @@
     "warn": 3,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "lobsterai-1.0.0.zip",
-      "sha256": "34392349926c1de3c3b1f2ee28ee41c59b370767896fe6211d7e0c063f1112b0",
-      "size": 3189398,
+      "file": "lobsterai-1.0.0-windows-amd64.zip",
+      "sha256": "222eab3e0e1ba00dc374d16e203990ae652a32e7e37e11e255981ce63f212f0f",
+      "size": 3189384,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

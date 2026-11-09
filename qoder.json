@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "qoder-1.0.0.zip",
-      "sha256": "174fb93e7f78ed9760d5fd60f11a1c87159b8af1e9817d918f7c938ef166cbfa",
-      "size": 2996575,
+      "file": "qoder-1.0.0-windows-amd64.zip",
+      "sha256": "620982c06c4ee429da7a989bf2ea9062b702ab3acd924fe1382285cf26fee312",
+      "size": 2996683,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

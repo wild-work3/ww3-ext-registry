@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -36,9 +36,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "custom-api-1.0.0.zip",
-      "sha256": "6409f74aa95f71f661991abe2eb45a8400611bc07f664d77e5312768158d7589",
-      "size": 2847373,
+      "file": "custom-api-1.0.0-windows-amd64.zip",
+      "sha256": "6c421c5a45338f8ce756364b59986fd027700aa96a94e06282e3a5492f747abd",
+      "size": 2847394,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

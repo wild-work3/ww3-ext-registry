@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -42,9 +42,9 @@
   "versions": [
     {
       "version": "2.0.0",
-      "file": "chatgpt-2.0.0.zip",
-      "sha256": "fc067428a92e9226a7857c5b1a8aedbf1ef06b64cb58ffbbd413616d0b6f6f8b",
-      "size": 5737990,
+      "file": "chatgpt-2.0.0-windows-amd64.zip",
+      "sha256": "68842d6814c9a2efb5cf4806d6df952da4571678ea8af7d0bead2a16ffdb2452",
+      "size": 5738076,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

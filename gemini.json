@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -43,9 +43,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "gemini-1.0.0.zip",
-      "sha256": "4a3ed254967e79fdae7afcfb9ac1550775bce0636f4ef0520da9af78c77fc3cb",
-      "size": 3213282,
+      "file": "gemini-1.0.0-windows-amd64.zip",
+      "sha256": "200437fd15d44db7d4923d79f5becca5940bfe252094c8bbd5909b94fdfe95cc",
+      "size": 3213312,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

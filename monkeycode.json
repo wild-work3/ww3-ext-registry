@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "monkeycode-1.0.0.zip",
-      "sha256": "570b209dbcdbc5a62cefd9d3a3a5916244821e9cccd7a5f935b2f9a4099625a2",
-      "size": 2895333,
+      "file": "monkeycode-1.0.0-windows-amd64.zip",
+      "sha256": "d8d5d401100df603aa167ef19fd0ff0be1696ccaae1a8b470e28e7a45f618b04",
+      "size": 2895334,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

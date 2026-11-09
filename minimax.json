@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "minimax-1.0.0.zip",
-      "sha256": "122c08ca897cb2a20d7a8515eb2b3775081cf68563ea7e31ee9c3e920135bd64",
-      "size": 2876926,
+      "file": "minimax-1.0.0-windows-amd64.zip",
+      "sha256": "d049586bdbf21fe3936d86941a3636afbcd597d6c3b2131787c70eea63e36ee0",
+      "size": 2876966,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "traework-1.0.0.zip",
-      "sha256": "47926c5e016ad50a0e05b63ad9dd9061d51e942ad0059a107a5c17b79cbcffd7",
-      "size": 3045612,
+      "file": "traework-1.0.0-windows-amd64.zip",
+      "sha256": "e9ae50feef01492a30bed3e610bb814094b7419d321f84bdb59251655ab8f2a1",
+      "size": 3045673,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

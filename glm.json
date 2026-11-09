@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -47,9 +47,9 @@
   "versions": [
     {
       "version": "2.0.0",
-      "file": "glm-2.0.0.zip",
-      "sha256": "45b13970ec30412fd718229759bc1fac69f2d134576f542a0aa8c706d685a7d9",
-      "size": 3333610,
+      "file": "glm-2.0.0-windows-amd64.zip",
+      "sha256": "9ec73ebfe213a737731d038ffc8df7aa546cbb374d13bd5cae3e695b8f44397f",
+      "size": 3333680,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

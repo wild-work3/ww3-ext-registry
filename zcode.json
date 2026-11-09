@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -43,9 +43,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "zcode-1.0.0.zip",
-      "sha256": "4adff8e2351b1a1483857cf511f69a721b9a566c6601e0ef4502f81574dc7c0d",
-      "size": 2896584,
+      "file": "zcode-1.0.0-windows-amd64.zip",
+      "sha256": "01e98be30ca141ef63ad25d69b61ccb1398bf4fb8713d9e2c3e33ed987629dd4",
+      "size": 2896603,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

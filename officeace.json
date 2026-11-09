@@ -14,7 +14,7 @@
     "warn": 3,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "officeace-1.0.0.zip",
-      "sha256": "0ac2d9c2cf4732a8d2690126e4df567a7f11f94947496a88ff76bd91b48964d8",
-      "size": 3022388,
+      "file": "officeace-1.0.0-windows-amd64.zip",
+      "sha256": "ec75adce51c5fe8d613332e0378b6da3f87b9c0ed983d2b04c76ea68c2c75632",
+      "size": 3022403,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

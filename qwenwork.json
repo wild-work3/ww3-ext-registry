@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -43,9 +43,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "qwenwork-1.0.0.zip",
-      "sha256": "f122440ff0791ca0e565e1a5f2bce551ef770c7821c26b3fff709dae2557eb9c",
-      "size": 3060698,
+      "file": "qwenwork-1.0.0-windows-amd64.zip",
+      "sha256": "104f1f2985f0e0cedbf700392fc23f45e343e51410ae50358e6e7af837c7972b",
+      "size": 3060649,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

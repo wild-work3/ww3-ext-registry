@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "raccoon-1.0.0.zip",
-      "sha256": "1b9ba0c4392a77aa6e3f19b51cb4b865dec2beebbc965a1fd856dd121c69ef5c",
-      "size": 2878788,
+      "file": "raccoon-1.0.0-windows-amd64.zip",
+      "sha256": "7b6c8396b840f390dbdde676a5f9fdb6654fe7f7694cb76c1f80dbd08511dac3",
+      "size": 2878772,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

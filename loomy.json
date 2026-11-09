@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "loomy-1.0.0.zip",
-      "sha256": "bf26cd8e68f2257362423884aa60fecbc406d519bd9d2db2911d43c8decb83e4",
-      "size": 2973051,
+      "file": "loomy-1.0.0-windows-amd64.zip",
+      "sha256": "b871fbcd9caea09acc5c19b03cbd264c34c22a7f01e54836f06a7163fe620422",
+      "size": 2973063,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

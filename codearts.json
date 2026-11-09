@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "codearts-1.0.0.zip",
-      "sha256": "8de9c1a4b2615cf1caac645e663ebc329e577838af83b5aef1ae3caee7486bb6",
-      "size": 3245522,
+      "file": "codearts-1.0.0-windows-amd64.zip",
+      "sha256": "4590319a749962ffe3891b516b286bf04c34643252e1673b1ebd34259e409a38",
+      "size": 3245529,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

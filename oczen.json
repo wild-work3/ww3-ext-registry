@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -44,9 +44,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "oczen-1.0.0.zip",
-      "sha256": "bbb68890c1eef444b951265be9bd0d00f1fcdd6e9e938eb66a25219688202c26",
-      "size": 2949571,
+      "file": "oczen-1.0.0-windows-amd64.zip",
+      "sha256": "1771d25a5325579cadf7e668fd408090447718cbf229753b7625faaf15a3381f",
+      "size": 2949535,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

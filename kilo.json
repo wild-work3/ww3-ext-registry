@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -39,9 +39,9 @@
   "versions": [
     {
       "version": "1.0.0",
-      "file": "kilo-1.0.0.zip",
-      "sha256": "d62ff46749785cbe0898b0607d527db4e678eb36deeb06c79cb15b1b53b11316",
-      "size": 2786514,
+      "file": "kilo-1.0.0-windows-amd64.zip",
+      "sha256": "e486771e7298362dd3fae70d065e6c4833ad97b1e6b996190fb643a30f96d57d",
+      "size": 2786502,
       "os": "windows",
       "arch": "amd64",
       "protocol": {

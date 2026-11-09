@@ -12,16 +12,16 @@
   "updated_at": "2026-11-05T18:00:00Z",
   "gateway": {
     "version": "1.0.0",
-    "sha256": "c18c597bc0850b3c58aeff1b6f4157c25f0fed0f3e88999e1a8a73a4c49c06d9",
-    "size": 9052160,
+    "sha256": "2c99756d83c505d25e000ca3c52aea863bebad975d68aa49131b4326243c1660",
+    "size": 9053696,
     "note": "手动替换：停 gateway → wild-work3.exe 改名为 wild-work3.exe.old → 放入新文件 → 重启"
   },
   "versions": [
     {
       "version": "1.0.0",
-      "file": "main-1.0.0.zip",
-      "sha256": "5ff0a9538a23eb98fb8966b8a259b84db96d22b098a8b550ed03d53a3a8114e1",
-      "size": 7314638,
+      "file": "main-1.0.0-windows-amd64.zip",
+      "sha256": "602a8496ccc89a5d1eaf1c4db85d4a87a0f1d7e07bf107c7f642ec7fba06bce6",
+      "size": 7316175,
       "os": "windows",
       "arch": "amd64",
       "protocol": {
