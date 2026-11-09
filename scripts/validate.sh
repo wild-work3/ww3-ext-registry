@@ -79,10 +79,16 @@ for f in "${FILES[@]}"; do
       ) | "版本条目不合法：\(.version // "?")（file 必填、不能带路径、必须 .zip；sha256 需 64 位小写十六进制）" ] | .[0] // empty' "$f" 2>&1)
   [ -z "$err" ] || { fail "$f: $err"; continue; }
 
-  # 版本号不得重复
+  # 同一版本号可以为 6 个平台各出一条，故去重键是 version+os+arch 复合键（W3-55）
   err=$("$JQ" -r '
-    [ .versions[].version ] | group_by(.) | map(select(length > 1) | .[0])
-    | if length > 0 then "版本号重复：\(join(", "))" else empty end' "$f" 2>&1)
+    [ .versions[] | "\(.version)/\(.os)/\(.arch)" ] | group_by(.) | map(select(length > 1) | .[0])
+    | if length > 0 then "同版本同平台重复声明：\(join(", "))" else empty end' "$f" 2>&1)
+  [ -z "$err" ] || { fail "$f: $err"; continue; }
+
+  # 包文件名不得在当前文件内重复（不然一个平台会装到另一个平台的包）
+  err=$("$JQ" -r '
+    [ .versions[].file ] | group_by(.) | map(select(length > 1) | .[0])
+    | if length > 0 then "包文件名重复：\(join(", "))" else empty end' "$f" 2>&1)
   [ -z "$err" ] || { fail "$f: $err"; continue; }
 
   ok "$f"
