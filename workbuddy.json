@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-06"
+    "at": "2026-11-09"
   },
   "capabilities": {
     "control": [
@@ -40,13 +40,13 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-09T12:36:41Z",
   "versions": [
     {
       "version": "1.0.0",
       "file": "workbuddy-1.0.0.zip",
-      "sha256": "bab0c35c8735d4e065b593e1c4609eea64c0a3b132de402604f86d3a64dd38cd",
-      "size": 2853915,
+      "sha256": "e403c0ce84085621f6984f90bcb732373eddb2e0b050bf4063fca1e32e15a091",
+      "size": 2856618,
       "os": "windows",
       "arch": "amd64",
       "protocol": {
