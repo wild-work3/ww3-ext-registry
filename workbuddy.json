@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-09T12:36:41Z",
+  "updated_at": "2026-11-09T15:39:04Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "workbuddy-1.0.0.zip",
-      "sha256": "e403c0ce84085621f6984f90bcb732373eddb2e0b050bf4063fca1e32e15a091",
-      "size": 2856618,
+      "file": "workbuddy-1.0.0-windows-arm64.zip",
+      "sha256": "866189d04c817847110e046ea78b279cbbef8f8b45af521c8c554791cb23c7b9",
+      "size": 2544188,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "workbuddy-1.0.0-windows-amd64.zip",
+      "sha256": "4580833b34a2412dcdbc15a01a4dc2d64ec2ce744c00a16888761a6b92581496",
+      "size": 2861329,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "workbuddy-1.0.0-linux-arm64.zip",
+      "sha256": "357ba7b2185efc8ee424811e33a8e9cb44fa5f7665b51106a0bd4760a20ff492",
+      "size": 2516495,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "workbuddy-1.0.0-linux-amd64.zip",
+      "sha256": "70e0a4db53e8cb929afc27f27823d190c6f7593f02546b09b2d574848cbc3a35",
+      "size": 2798194,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "workbuddy-1.0.0-darwin-arm64.zip",
+      "sha256": "16dde76020ed74de41f2033937b39514df879246960290e3b48eaf06c12ffc87",
+      "size": 2594807,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "workbuddy-1.0.0-darwin-amd64.zip",
+      "sha256": "9e2342256d48a7401137ebfaa246ce3db97c49933055082f1a45cd3348a75f4a",
+      "size": 2823424,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
