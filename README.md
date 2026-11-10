@@ -71,13 +71,14 @@
 
 ## 4. 发布一个新版本（插件作者）
 
-1. 在你的插件仓跑 `bash build.sh --zip`，得到 `<id>-<version>.zip`（包根只有 `<id>-ext.exe` + `manifest.json`）；
+1. 在你的插件仓跑 `bash build.sh --zip`，得到 `<id>-<version>-<os>-<arch>.zip`
+   （包根只有**入口可执行文件** + `manifest.json`；文件名**无固定定义**，这里写 `<id>-ext` 只是建议）；
 2. 在你的插件仓打 release 并上传该 zip（**tag 名随意**，`v1.4.2` / `1.4.2` / `release-1.4.2` 都能被识别）；
 3. workflow 计算该 zip 的 `sha256` 与 `size`，并把**文件名**写进 `versions[].file`，生成/更新本仓的 `<id>.json`，**提 PR**；
 4. 合并后客户端下个 TTL（≤30min）或用户点「刷新」即生效。
 
 > **可选的准入自检**（由**插件仓自己**决定，本仓不代跑、不做门禁）：在自己仓的 workflow 里跑
-> `ww3-conformance --exe dist/<id>-ext.exe --json-summary out.json`，把摘要里的 `conformance` / `capabilities`
+> `ww3-conformance --exe dist/<你的产物名> --json-summary out.json`，把摘要里的 `conformance` / `capabilities`
 > 写进本 PR。**不跑这一步同样可以发布**——只有 `repo` / `version` / `file` / `sha256` 是必要信息。
 > 填了这两个字段的好处：ww3 插件管理界面会多显示准入徽章与能力矩阵（见 `conformance/PLAN.md` §0.1）。
 
@@ -109,10 +110,13 @@
 不符合契约托管要求（自建 Git、私有仓）的插件走手动安装，不进本仓：
 
 ```
-<plugins>/<id>/<ver>/<id>-ext.exe     # hook 为 <id>-hook.exe
+<plugins>/<id>/<ver>/<任意产物名>        # 建议用 <id>-ext.exe / <id>-hook.exe，但不是约束
 <plugins>/<id>/<ver>/manifest.json
 <plugins>/<id>/current                # 内容 = 裸版本号，无换行
 ```
+
+发现依靠 `manifest.json` 的 `id`（不是文件名）：core 的 `resolveExe` 会依次试约定名 → 裸 id → 目录扫描，
+所以 `chatgpt-cli`、`chatglm-cli.exe` 这类产物名同样能被找到。
 
 ## 8. 信任模型（必读）
 
