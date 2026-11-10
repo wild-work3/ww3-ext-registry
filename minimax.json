@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:42:47Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "minimax-1.0.0-windows-amd64.zip",
-      "sha256": "d049586bdbf21fe3936d86941a3636afbcd597d6c3b2131787c70eea63e36ee0",
-      "size": 2876966,
+      "file": "minimax-1.0.0-windows-arm64.zip",
+      "sha256": "20333854780ed3faed202b66185094b5fcf691c995f8d75e2a936ec0b91bfc86",
+      "size": 2569449,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "minimax-1.0.0-windows-amd64.zip",
+      "sha256": "91856bd3f60b3f7905588d12a3abde7cfd676eb8796073f9cb4c970cf9617436",
+      "size": 2885226,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "minimax-1.0.0-linux-arm64.zip",
+      "sha256": "c9b57b915f7a254ec26409f52117f8ed9893b9dc0dfed53849abecd9773a12d7",
+      "size": 2537674,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "minimax-1.0.0-linux-amd64.zip",
+      "sha256": "4ab9f651ac1af056e514f6bf7aeae6a20358195ce8cb12f96e5e8a6677c18cd8",
+      "size": 2819672,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "minimax-1.0.0-darwin-arm64.zip",
+      "sha256": "440adefb9d5c005424dc335f00bcde6507cab5075dabb3e2bf9ba1463ca8229e",
+      "size": 2617340,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "minimax-1.0.0-darwin-amd64.zip",
+      "sha256": "95b7a4121572bb9f02698ab95c1671149af1ca0187e4409f604a396bcb214098",
+      "size": 2845857,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

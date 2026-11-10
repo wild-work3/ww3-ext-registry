@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:42:32Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "monkeycode-1.0.0-windows-amd64.zip",
-      "sha256": "d8d5d401100df603aa167ef19fd0ff0be1696ccaae1a8b470e28e7a45f618b04",
-      "size": 2895334,
+      "file": "monkeycode-1.0.0-windows-arm64.zip",
+      "sha256": "9e566e4652c43e4fd38eca6e0bea9529eac624824a68453f660e463b17ad54fa",
+      "size": 2578850,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "monkeycode-1.0.0-windows-amd64.zip",
+      "sha256": "f9cc4a21d648fa5690032c1062aa56c4ddeae2dbbafcd154d77d84e0fe1d08ca",
+      "size": 2904258,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "monkeycode-1.0.0-linux-arm64.zip",
+      "sha256": "dded47ca29c0fbb8d50f5a2f5b0ce5130b56375addb36d6f0907df2e480f6d26",
+      "size": 2547184,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "monkeycode-1.0.0-linux-amd64.zip",
+      "sha256": "11f5a6771abefcb8115386d4961523afc53b64d1c7262e9b24eca587b953c95a",
+      "size": 2836957,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "monkeycode-1.0.0-darwin-arm64.zip",
+      "sha256": "1bb6697d8953267a7b5289bffda242f2ddafbee0d91e943341cc867033dfa65e",
+      "size": 2628141,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "monkeycode-1.0.0-darwin-amd64.zip",
+      "sha256": "f0329c72d8973af82b2dbd3db73aa0f30c2a9265bf6ad654e153020f5abc7039",
+      "size": 2861322,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:43:32Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "raccoon-1.0.0-windows-amd64.zip",
-      "sha256": "7b6c8396b840f390dbdde676a5f9fdb6654fe7f7694cb76c1f80dbd08511dac3",
-      "size": 2878772,
+      "file": "raccoon-1.0.0-windows-arm64.zip",
+      "sha256": "c9691ebe58cd56d341a665cc841d9df7cd3c1a75d5a55cfb6ced6b3065679627",
+      "size": 2572449,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "raccoon-1.0.0-windows-amd64.zip",
+      "sha256": "582310cd518e0155c27db3a3d76d50421c52cea4a24368f6b33980b735218012",
+      "size": 2888225,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "raccoon-1.0.0-linux-arm64.zip",
+      "sha256": "516ca6fb7afeb4e191b069cc4f543044b75b987a4b40f8f675c579a8b8357637",
+      "size": 2537303,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "raccoon-1.0.0-linux-amd64.zip",
+      "sha256": "4e4a4f7f80af313cb74055304121437ece7db6ee54c4411d7592e35e90e854eb",
+      "size": 2821442,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "raccoon-1.0.0-darwin-arm64.zip",
+      "sha256": "2f9743d3212b8dca24d3900322c683cc7988ee7e55b8ea723a08963c6eef6693",
+      "size": 2615000,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "raccoon-1.0.0-darwin-amd64.zip",
+      "sha256": "a73885b7e53836cb37d43200d7ea4f17b0b7a971ebe16103cc1fbc06839ed6bd",
+      "size": 2843343,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

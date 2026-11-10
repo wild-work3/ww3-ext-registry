@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -35,14 +35,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:38:24Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "kilo-1.0.0-windows-amd64.zip",
-      "sha256": "e486771e7298362dd3fae70d065e6c4833ad97b1e6b996190fb643a30f96d57d",
-      "size": 2786502,
+      "file": "kilo-1.0.0-windows-arm64.zip",
+      "sha256": "74449641483e3cda77e164f7dc491770ee72746148d643334d550be0e69fb002",
+      "size": 2488625,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "kilo-1.0.0-windows-amd64.zip",
+      "sha256": "2f82fc1ab824ed19d3976192177baf626c11d1b431e33409bab4a910fdbe62c9",
+      "size": 2794401,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "kilo-1.0.0-linux-arm64.zip",
+      "sha256": "b9f7b68c1c30cbf0b96414a14ce54b53826d9db1616ee42a9028f1eb4955fcf5",
+      "size": 2467907,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "kilo-1.0.0-linux-amd64.zip",
+      "sha256": "35c827a9cf09a9bc7bf50d3d8e399f9ca2ab5bd2ba8360a81e79f8a3b30aca75",
+      "size": 2741874,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "kilo-1.0.0-darwin-arm64.zip",
+      "sha256": "48829b003579450f55efd99474e14d06056491d0ab9a473b33a0ce371d0ca255",
+      "size": 2541682,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "kilo-1.0.0-darwin-amd64.zip",
+      "sha256": "f7b477e15d8016bf89d95a96ac4714dd04fc6f8dcb34afa25ab2b6aa2e9f6e27",
+      "size": 2760383,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

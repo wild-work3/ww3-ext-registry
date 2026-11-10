@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -39,14 +39,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:42:39Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "qwenwork-1.0.0-windows-amd64.zip",
-      "sha256": "104f1f2985f0e0cedbf700392fc23f45e343e51410ae50358e6e7af837c7972b",
-      "size": 3060649,
+      "file": "qwenwork-1.0.0-windows-arm64.zip",
+      "sha256": "857bc07666c1afff694514304a53f3c9b1ae411b8f5382ee2ffdb8bd41fa5db0",
+      "size": 2734801,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qwenwork-1.0.0-windows-amd64.zip",
+      "sha256": "bf84db701c44537ccdbaf57c3660ee71d49bd7830709aaff512354bf6798fe86",
+      "size": 3069575,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qwenwork-1.0.0-linux-arm64.zip",
+      "sha256": "7dce02597cf155b9d60655d5e138ac0de7c9f5cc9b3f82eae78e88346eabf0a0",
+      "size": 2695159,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qwenwork-1.0.0-linux-amd64.zip",
+      "sha256": "59d5cf7e95772a48b97a8d8a4ce41881075adb6baf0e89c51f605e337491c573",
+      "size": 2991869,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qwenwork-1.0.0-darwin-arm64.zip",
+      "sha256": "4726b2d55b57014b010d2c5ecb5645d436957bc582daf22a2bcd9208b0bf59f2",
+      "size": 2785300,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qwenwork-1.0.0-darwin-amd64.zip",
+      "sha256": "3a628321c9a5864e2f2fe5bed576276f89ae77efdbaf79170fae089ffaebd607",
+      "size": 3032228,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

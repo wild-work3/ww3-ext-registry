@@ -14,7 +14,7 @@
     "warn": 0,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:42:41Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "oczen-1.0.0-windows-amd64.zip",
-      "sha256": "1771d25a5325579cadf7e668fd408090447718cbf229753b7625faaf15a3381f",
-      "size": 2949535,
+      "file": "oczen-1.0.0-windows-arm64.zip",
+      "sha256": "17dc0812835fce663d56fc454a5563dd1c630a05dd414f145e1f3618edfc1956",
+      "size": 2631951,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "oczen-1.0.0-windows-amd64.zip",
+      "sha256": "de2a101a116b0ebf1f5715aaa3eb07f3f0397774a22019018d4ac20ae2e43b55",
+      "size": 2959318,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "oczen-1.0.0-linux-arm64.zip",
+      "sha256": "b2d4441c61063ad512bedc4f2f80848a87ab856f723f105dc4cafe6843fa3c6f",
+      "size": 2601498,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "oczen-1.0.0-linux-amd64.zip",
+      "sha256": "5c2cfa6bd7c966f42f5d6b6c492e168a3e30a2556d224f407e5d7140ce12aead",
+      "size": 2892453,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "oczen-1.0.0-darwin-arm64.zip",
+      "sha256": "da5de39191ab0601b383927b49ba4055e3871e42607e179f316626ad329b66c6",
+      "size": 2680205,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "oczen-1.0.0-darwin-amd64.zip",
+      "sha256": "74e620f4b6b5a5a17315ac0caa0d20c81bc71e111cceb3905ad6e63489a0d5d8",
+      "size": 2918300,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
