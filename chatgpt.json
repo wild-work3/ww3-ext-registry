@@ -5,7 +5,7 @@
   "name": "ChatGPT",
   "description": "ChatGPT chatgpt.com 逆向渠道（Codex webview 指纹；支持对话/联网搜索/生图/参考图改图 与 会话管理）",
   "author": "wild-work3",
-  "repo": "https://github.com/pyichiban/chatgpt-cli",
+  "repo": "https://github.com/wild-work3/ww3-chatgpt-cli",
   "status": "verified",
   "icon": "chatgpt",
   "color": "#10a37f",
@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -38,14 +38,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T12:10:43Z",
   "versions": [
     {
       "version": "2.0.0",
-      "file": "chatgpt-2.0.0-windows-amd64.zip",
-      "sha256": "68842d6814c9a2efb5cf4806d6df952da4571678ea8af7d0bead2a16ffdb2452",
-      "size": 5738076,
+      "file": "chatgpt-2.0.0-windows-arm64.zip",
+      "sha256": "fcc56c723609a6f1d622b54f2bc3fac3ffe18fa2e26062eee9d34dedf6520f2b",
+      "size": 5151931,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "chatgpt-2.0.0-windows-amd64.zip",
+      "sha256": "b4c8b62e58a527b8b1715fda6188e97b167f181664d9fa44d92b51a25efb937b",
+      "size": 5759382,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "chatgpt-2.0.0-linux-arm64.zip",
+      "sha256": "75f05e022bcc24ef19c24bb44ca92fcba0d00360e5708632690957a0e86d5b16",
+      "size": 5117058,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "chatgpt-2.0.0-linux-amd64.zip",
+      "sha256": "5ee27312945de9ba996ff92c233b0ff49bab28caf3438004c0b78926e5a658e8",
+      "size": 5669077,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "chatgpt-2.0.0-darwin-arm64.zip",
+      "sha256": "e40017c6fafab9119b6d0251f93c633a887b769b439653b2afa453b5bb2ea609",
+      "size": 5307315,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "chatgpt-2.0.0-darwin-amd64.zip",
+      "sha256": "59386be020fc1d5dbf7f79c54eb9854204d8561fd98e18c157ab4b42e1d69d88",
+      "size": 5753736,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
