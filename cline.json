@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -39,14 +39,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:30:31Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "cline-1.0.0-windows-amd64.zip",
-      "sha256": "5db663ddc8fda149a8c11a2ee688dac2cbd1fdd9b5c6884be38a16b47ec5ac41",
-      "size": 2959242,
+      "file": "cline-1.0.0-windows-arm64.zip",
+      "sha256": "fe6489829fac360ba7375572185acf2ee59d1d632a057863dcf6b8e5f210df4f",
+      "size": 2641586,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "cline-1.0.0-windows-amd64.zip",
+      "sha256": "ef0514bbf919b6793be57ce4d87dc142321527bab23b56f97bc5c9ceab6be632",
+      "size": 2968100,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "cline-1.0.0-linux-arm64.zip",
+      "sha256": "69880cc9c4cba4e2660b7dc7f194e2de29f9eb8cb01d232be0d5a4a7b6bf44aa",
+      "size": 2610564,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "cline-1.0.0-linux-amd64.zip",
+      "sha256": "ad89973ecc8e3b73f3344052430ae73adc2c8184a4cf5cd99bfb35e71b556657",
+      "size": 2901389,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "cline-1.0.0-darwin-arm64.zip",
+      "sha256": "36f6afa8ccc2068f8209e49000addb0701926ceb45e666ea33d6a892c1326dc0",
+      "size": 2691028,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "cline-1.0.0-darwin-amd64.zip",
+      "sha256": "deb71991c16297f6409d06bf5a363f65ca99fc900aa1e619e8745e8ddd06de2a",
+      "size": 2928845,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
