@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:43:00Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "qoder-1.0.0-windows-amd64.zip",
-      "sha256": "620982c06c4ee429da7a989bf2ea9062b702ab3acd924fe1382285cf26fee312",
-      "size": 2996683,
+      "file": "qoder-1.0.0-windows-arm64.zip",
+      "sha256": "95d03336dd358ba0017c0e420ff6bd29c17e6bf24a2e70e78616d998930a5803",
+      "size": 2674982,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qoder-1.0.0-windows-amd64.zip",
+      "sha256": "a9b7151abb7d7beb2aeb3cc8dd0ad72e9d9c2b849ac75772d2dc683c7b015a31",
+      "size": 3005396,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qoder-1.0.0-linux-arm64.zip",
+      "sha256": "01a5ecd76486a4aac56e80f205c4a2434d0b2332e6a84e8b4192bd906cc17a7b",
+      "size": 2638720,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qoder-1.0.0-linux-amd64.zip",
+      "sha256": "16228d5f27a801ca75138ceb873bf48cd8e268b5b4669eda9008071c2cef44a7",
+      "size": 2934264,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qoder-1.0.0-darwin-arm64.zip",
+      "sha256": "584031c5451dc892d4443f2a529ec147eaa30db1d5eae7460babb863cb329982",
+      "size": 2726665,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "qoder-1.0.0-darwin-amd64.zip",
+      "sha256": "4c93140eb1ab48162d340877d7c31efacd8825420861327e414b9f23f292f52c",
+      "size": 2968503,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
