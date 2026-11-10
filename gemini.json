@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -39,14 +39,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:37:31Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "gemini-1.0.0-windows-amd64.zip",
-      "sha256": "200437fd15d44db7d4923d79f5becca5940bfe252094c8bbd5909b94fdfe95cc",
-      "size": 3213312,
+      "file": "gemini-1.0.0-windows-arm64.zip",
+      "sha256": "4707896ed29425e8a8fbb6a79167f4e435fe0592ab11bc18ce2daba555eaf38a",
+      "size": 2868425,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "gemini-1.0.0-windows-amd64.zip",
+      "sha256": "fd9e848ae5c9e987465d9675fce31483f7445321967972f1183fa2659730ae8f",
+      "size": 3223251,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "gemini-1.0.0-linux-arm64.zip",
+      "sha256": "d240a198ba0cfa8c46510189b87232ae51e334fcb7ac60cec0d7315523d157be",
+      "size": 2837774,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "gemini-1.0.0-linux-amd64.zip",
+      "sha256": "1ad4a5c647fcf6890592ffc9dcb2fdb8363004bf8c434960c38848bbdcc57e63",
+      "size": 3150031,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "gemini-1.0.0-darwin-arm64.zip",
+      "sha256": "093e2a37b7fb302776297f1a070fa13ba5ecb95631e7808544c08fcb550c3723",
+      "size": 2931362,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "gemini-1.0.0-darwin-amd64.zip",
+      "sha256": "35def47b16cf1d04ff5e43a1376362a4237ea1fbd095eb501ae31ddf29712ff9",
+      "size": 3185054,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
