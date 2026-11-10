@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:37:00Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "codearts-1.0.0-windows-amd64.zip",
-      "sha256": "4590319a749962ffe3891b516b286bf04c34643252e1673b1ebd34259e409a38",
-      "size": 3245529,
+      "file": "codearts-1.0.0-windows-arm64.zip",
+      "sha256": "4b31d6cb8de5007ec877a538b68d8fe6d42a2f06cc95a37eaf539a221937ef46",
+      "size": 2897347,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "codearts-1.0.0-windows-amd64.zip",
+      "sha256": "038db4c34ed6663d10eb333ba92a0bebe33c2b4342d9425c0646dbe05e2204cc",
+      "size": 3255152,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "codearts-1.0.0-linux-arm64.zip",
+      "sha256": "dcae4c811fedab803969d52da242a36420935c69a9ee39ddecfd2b90894778ca",
+      "size": 2866675,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "codearts-1.0.0-linux-amd64.zip",
+      "sha256": "7dee3213f76cb6129eba6051a25b18847942a5f06a3e96cede6055629e3f1b89",
+      "size": 3185415,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "codearts-1.0.0-darwin-arm64.zip",
+      "sha256": "1f2bf68344c277e0a2980d094e679b5f5a6642c74af24959ffd6be42e57d44c5",
+      "size": 2955675,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "codearts-1.0.0-darwin-amd64.zip",
+      "sha256": "5025344ebd09fb753c9130aecf03e3d942bc131587a6ae810f0b539f416960f1",
+      "size": 3216218,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
