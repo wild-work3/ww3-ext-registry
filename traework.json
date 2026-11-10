@@ -14,7 +14,7 @@
     "warn": 2,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:43:22Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "traework-1.0.0-windows-amd64.zip",
-      "sha256": "e9ae50feef01492a30bed3e610bb814094b7419d321f84bdb59251655ab8f2a1",
-      "size": 3045673,
+      "file": "traework-1.0.0-windows-arm64.zip",
+      "sha256": "ca77b6aa7c9e89e83bfab98e1d4627315836cb6cc586c3063b8dd4bd2c5ea7bf",
+      "size": 2719811,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "traework-1.0.0-windows-amd64.zip",
+      "sha256": "9b6e93eebef22d5c50ec01aa131f4ce67a9eff856d939ef609ae508d5985ce9c",
+      "size": 3056530,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "traework-1.0.0-linux-arm64.zip",
+      "sha256": "7fce734fa3871356fc0e68029b25ab89d50b3016d82b2f47ef935b5d202c2f6b",
+      "size": 2689017,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "traework-1.0.0-linux-amd64.zip",
+      "sha256": "42374a76658f8e4ec9d552f75a18aa574e6b4f3d6ce6bd235f6344fe188ed5e1",
+      "size": 2988361,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "traework-1.0.0-darwin-arm64.zip",
+      "sha256": "5d21fcc9d52067a3a5b9126eab8b526c37981ed8992bd4d56979cd49da8d4822",
+      "size": 2772024,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "traework-1.0.0-darwin-amd64.zip",
+      "sha256": "2caa6bd385744b88e1d04753c5207656f0bb2ba0658ea00df12063aef8356ce5",
+      "size": 3014446,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
