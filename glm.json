@@ -5,7 +5,7 @@
   "name": "智谱清言",
   "description": "智谱清言 chatglm.cn 逆向渠道（IDE 指纹通道；支持主对话/深度思考/沉思/AI搜索/PPT/视频 与文生图/参考图生图）",
   "author": "wild-work3",
-  "repo": "https://github.com/pyichiban/chatglm-cli",
+  "repo": "https://github.com/wild-work3/ww3-chatglm-cli",
   "status": "verified",
   "icon": "glm",
   "color": "#3b6ef6",
@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -43,14 +43,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T12:03:44Z",
   "versions": [
     {
       "version": "2.0.0",
-      "file": "glm-2.0.0-windows-amd64.zip",
-      "sha256": "9ec73ebfe213a737731d038ffc8df7aa546cbb374d13bd5cae3e695b8f44397f",
-      "size": 3333680,
+      "file": "glm-2.0.0-windows-arm64.zip",
+      "sha256": "a9e6132ea3df98a2ee1e38303f3167d5ceeb207eea9625ab8d15fe60fcbc8e8c",
+      "size": 2970762,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "glm-2.0.0-windows-amd64.zip",
+      "sha256": "80975f365780cdebb5038b9bd994f1ab42af1cd9105f0ab4f5af4e9650780379",
+      "size": 3346967,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "glm-2.0.0-linux-arm64.zip",
+      "sha256": "aab2df16b3cc9133181f2497d139c066ae0aa290812c4700b580482e680d5df0",
+      "size": 2933593,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "glm-2.0.0-linux-amd64.zip",
+      "sha256": "4a916c64b45985627225d6d733faaca9fb63a9a8d16630f927aa9d3c50e7f689",
+      "size": 3270590,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "glm-2.0.0-darwin-arm64.zip",
+      "sha256": "ecaa878ff379c398bb5e1d94311ab03e9069fd7de0d513b00ed870381adfe32a",
+      "size": 3028510,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "2.0.0",
+      "file": "glm-2.0.0-darwin-amd64.zip",
+      "sha256": "eb59885138353d978d15cab26238533abbc863b74b3d383e0c592e534b213a0f",
+      "size": 3303578,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
