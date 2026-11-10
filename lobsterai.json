@@ -14,7 +14,7 @@
     "warn": 3,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:38:51Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "lobsterai-1.0.0-windows-amd64.zip",
-      "sha256": "222eab3e0e1ba00dc374d16e203990ae652a32e7e37e11e255981ce63f212f0f",
-      "size": 3189384,
+      "file": "lobsterai-1.0.0-windows-arm64.zip",
+      "sha256": "a95416cf95dc060ac9c42d27b41fd5ed391cf41aa5684b325b700435a97c7edd",
+      "size": 2850452,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "lobsterai-1.0.0-windows-amd64.zip",
+      "sha256": "6b00424845271f4bd5faef36ab38f7dfcdfe16fa3de85ee5db69e247a6c06b12",
+      "size": 3199031,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "lobsterai-1.0.0-linux-arm64.zip",
+      "sha256": "0594ac2dce3ccb4b9f2eda50ac76edd4074d34ce750015d134f9165df2387dbb",
+      "size": 2824067,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "lobsterai-1.0.0-linux-amd64.zip",
+      "sha256": "e4c158c3c6ad921780095d6e1fffc696e84320c2bbbb05db4b96d6b7b7be5568",
+      "size": 3130874,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "lobsterai-1.0.0-darwin-arm64.zip",
+      "sha256": "29974157a27c844e1668819e504725b09fd21da9c75d6b4369e886e40ab072e4",
+      "size": 2913222,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "lobsterai-1.0.0-darwin-amd64.zip",
+      "sha256": "89cc046b94ae74ee2862baf34c84e94edbce162a49417361abfe36a9eddb48a4",
+      "size": 3162786,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,

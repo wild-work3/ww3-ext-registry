@@ -14,7 +14,7 @@
     "warn": 1,
     "fail": 0,
     "mode": "offline",
-    "at": "2026-11-09"
+    "at": "2026-11-10"
   },
   "capabilities": {
     "control": [
@@ -40,14 +40,94 @@
       "chat.generate"
     ]
   },
-  "updated_at": "2026-11-05T18:00:00Z",
+  "updated_at": "2026-11-10T11:39:25Z",
   "versions": [
     {
       "version": "1.0.0",
-      "file": "loomy-1.0.0-windows-amd64.zip",
-      "sha256": "b871fbcd9caea09acc5c19b03cbd264c34c22a7f01e54836f06a7163fe620422",
-      "size": 2973063,
+      "file": "loomy-1.0.0-windows-arm64.zip",
+      "sha256": "811351f4af9cb103675b530522eb8d14b28c4256da4de8a0dd11645702c996c8",
+      "size": 2654253,
       "os": "windows",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "loomy-1.0.0-windows-amd64.zip",
+      "sha256": "834275b43a55b2247cf19719c54243ac650902e062e1aec208631f8e4acd59c7",
+      "size": 2982442,
+      "os": "windows",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "loomy-1.0.0-linux-arm64.zip",
+      "sha256": "4ceb89837c35324194d3a1ff79eaa696e28d5fd7f93d2df20c0af66733c64947",
+      "size": 2624479,
+      "os": "linux",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "loomy-1.0.0-linux-amd64.zip",
+      "sha256": "da0e2dbc4cfe711fd16e2445ea1c9c49100ae7d957094df0d15eb42e303cf184",
+      "size": 2915643,
+      "os": "linux",
+      "arch": "amd64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "loomy-1.0.0-darwin-arm64.zip",
+      "sha256": "ddf7c287bba8c92f9cf1993d90beafc92b5f2f8b2471a230ba11d3591bda2724",
+      "size": 2703415,
+      "os": "darwin",
+      "arch": "arm64",
+      "protocol": {
+        "min": 1,
+        "max": 1
+      },
+      "gateway": {
+        "min": "1.0.0"
+      },
+      "changelog": "首个版本"
+    },
+    {
+      "version": "1.0.0",
+      "file": "loomy-1.0.0-darwin-amd64.zip",
+      "sha256": "da3bf248bedf5449ab54019b6c4d7bf4e91932d78692fbb77a639224f2b92bc7",
+      "size": 2940442,
+      "os": "darwin",
       "arch": "amd64",
       "protocol": {
         "min": 1,
